@@ -7,6 +7,7 @@
 "embedded_system\usart.o"
 "embedded_system\stm32f4xx_it.o"
 "embedded_system\stm32f4xx_hal_msp.o"
+"embedded_system\system_stm32f4xx.o"
 "embedded_system\stm32f4xx_hal_tim.o"
 "embedded_system\stm32f4xx_hal_tim_ex.o"
 "embedded_system\stm32f4xx_hal_rcc.o"
@@ -23,7 +24,6 @@
 "embedded_system\stm32f4xx_hal.o"
 "embedded_system\stm32f4xx_hal_exti.o"
 "embedded_system\stm32f4xx_hal_uart.o"
-"embedded_system\system_stm32f4xx.o"
 --strict --scatter "Embedded_System\Embedded_System.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
